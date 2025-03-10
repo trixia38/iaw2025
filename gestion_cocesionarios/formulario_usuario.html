@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar Compra</title>
+</head>
+<body>
+    <h2>Registro de Compras</h2>
+    <form action="registrar_compra.php" method="POST">
+        <label>Cliente:</label>
+        <select name="cliente_id" required>
+            <option value="">Seleccione un cliente</option>
+        </select>
+        <br>
+        <label>Vehículo:</label>
+        <select name="vehiculo_id" required>
+            <option value="">Seleccione un vehículo</option>
+        </select>
+        <br>
+        <label>Fecha de Compra:</label>
+        <input type="date" name="fecha_compra" required>
+        <br>
+        <button type="submit">Registrar Compra</button>
+    </form>
+</body>
+</html>
+
